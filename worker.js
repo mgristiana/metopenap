@@ -1,7 +1,7 @@
 /** Cloudflare Worker: browser-safe proxy to the existing Apps Script JSON API.
  * Configure Worker variables:
- *   APPS_SCRIPT_URL = the deployed Apps Script /exec URL
- *   ALLOWED_ORIGIN  = exactly https://<github-owner>.github.io
+ *   APPS_SCRIPT_URL = https://script.google.com/macros/s/AKfycbxZPPXk-5AWqKgSTJoAf4c_GnD203j7gkkPviy4AvHgOppMqkcVPjizENALfz0C_BLV/exec
+ *   ALLOWED_ORIGIN  = exactly https://mgristiana.github.io
  *                     (or the repository's project Pages origin)
  */
 export default {
